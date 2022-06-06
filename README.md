@@ -1,5 +1,5 @@
 ## **Sound Mods & Audio Overriding**
-### • Some of the terms and their meanings in this article;
+### Some of the terms and their meanings in this article;
 * "AudioSelectionStrategy" ("sequential" or "random"): Selection strategy for multiple override samples.
 If you have more than one sounds, you can choose "random"
 * Mod.json: mod_info.json is a required file that informs the game engine how to set up and use a mod. You can find examples in this text.
