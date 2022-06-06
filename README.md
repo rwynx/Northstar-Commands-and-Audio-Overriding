@@ -38,13 +38,13 @@ If you don't know how to make a mod.json, you can just download one of the sound
 ```
 
 * **An example screenshot:**
->![modjson](https://raw.githubusercontent.com/rwynx/shitty-img-repo/main/mod.json.png)
+>![modjson](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/mod.json.png)
 
 ***Note: Version number is not important if you don't want to release the mod publicly.***
 
 ## Audio Folder
 * **Audio Folder example:**
->![audiofolder](https://raw.githubusercontent.com/rwynx/shitty-img-repo/main/folderexample.png)
+>![audiofolder](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/folderexample.png)
 
 **Audio folder must contain your audio files as WAV format and folder name must be the Event ID.**
 
@@ -66,4 +66,4 @@ Example:**
 ```
 
 **An example screenshot of an EventID Json file:**
->![EventIDJson](https://raw.githubusercontent.com/rwynx/shitty-img-repo/main/eventmodjsonexample.png)
+>![EventIDJson](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/eventmodjsonexample.png)
