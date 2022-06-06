@@ -1,5 +1,5 @@
 ## **Sound Mods & Audio Overriding**
-### Some of the terms and their meanings in this article;
+### • Some of the terms and their meanings in this article;
 * "AudioSelectionStrategy" ("sequential" or "random"): Selection strategy for multiple override samples.
 If you have more than one sounds, you can choose "random"
 * Mod.json: mod_info.json is a required file that informs the game engine how to set up and use a mod. You can find examples in this text.
@@ -7,7 +7,7 @@ If you have more than one sounds, you can choose "random"
 In order for the game to choose the sound it should play at that moment, it must first know its ID.
 And so do you, to start to change them, you must identify the exact sound first.
 
-## How to make sound mods? Useful for simple ones. 
+## • How to make sound mods? Useful for simple ones. 
 ***There may be another one for complicated TitanOS, Announcher kind of stuff.***
 
 First you need to identify the exact sound. There's a command for this: **"ns_print_played_sounds 1"**
@@ -21,7 +21,7 @@ There is something important here, as you can see these all starts with "concret
 All weapons and boosts have different events IDs on different surfaces.
 That's why you must identify the exact event and that's why this command is very useful.
 
-## It's time to make the mod itself.
+## • It's time to make the mod itself.
 When you successfully identified your event, it's time to start making it.
 
 * Mod folder must contain "audio" folder and "mod.json"
@@ -37,12 +37,12 @@ If you don't know how to make a mod.json, you can just download one of the sound
 }
 ```
 
-* **An example screenshot:**
+* • **An example screenshot:**
 >![modjson](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/mod.json.png)
 
 ***Note: Version number is not important if you don't want to release the mod publicly.***
 
-## Audio Folder
+## • Audio Folder
 * **Audio Folder example:**
 >![audiofolder](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/folderexample.png)
 
