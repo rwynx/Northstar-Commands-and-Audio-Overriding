@@ -7,8 +7,9 @@ If you have more than one sounds, you can choose "random"
 In order for the game to choose the sound it should play at that moment, it must first know its ID.
 And so do you, to start to change them, you must identify the exact sound first.
 
-## • How to make sound mods? Useful for simple ones. 
 ***There may be another one for complicated TitanOS, Announcher kind of stuff.***
+
+## • How to make sound mods? Useful for simple ones. 
 
 First you need to identify the exact sound. There's a command for this: **"ns_print_played_sounds 1"**
 It will show all the "audio events" that are happening at that moment on the console. 
