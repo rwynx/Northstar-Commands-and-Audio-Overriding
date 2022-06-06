@@ -24,7 +24,7 @@ That's why you must identify the exact event and that's why this command is very
 ## • It's time to make the mod itself.
 When you successfully identified your event, it's time to start making it.
 
-* Mod folder must contain "audio" folder and "mod.json"
+First of all, mod folder must contain "audio" folder and "mod.json"
 If you don't know how to make a mod.json, you can just download one of the sound mods and edit it.
 
 **Example of a mod.json:**
