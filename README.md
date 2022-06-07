@@ -70,5 +70,5 @@ Example:**
 >![EventIDJson](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/eventmodjsonexample.png)
 
 
-**After the whole process you should have these 2 files with the all additions I just explained.**
+## **After the whole process you should have these 2 files with the all additions I just explained.**
 ![ModFolderOverall](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/ModFolderOverall.png)
