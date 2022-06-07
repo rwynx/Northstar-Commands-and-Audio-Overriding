@@ -72,3 +72,5 @@ Example:**
 
 ## **After the whole process you should have these 2 files with the all additions I just explained.**
 ![ModFolderOverall](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/ModFolderOverall.png)
+
+## Once you are done with the mod, copy or drag the folder (which contains audio folder and mod.json) to "Titanfall 2/r2Northstar/Mods" and that's all.
