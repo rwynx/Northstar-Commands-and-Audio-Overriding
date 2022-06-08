@@ -24,6 +24,10 @@ For example, when you use your Grapple, the ID will be **"pilot_grapple_fire"** 
 Like I said, all weapons and boosts have different events IDs on different surfaces.
 That's why you must identify the exact event/s.
 
+**NOTE:** "ns_print_played_sounds 1" will show you every event ID. Not just in-match ones.
+* For example the sound when you move the cursor to an option it will be "menu_focus", and clicking sound will be "menu_accept" or main menu music "mainmenu_music"
+* These are just examples, you can find any EventID and change them with the method I will explain here.
+
 ## • It's time to make the mod itself.
 When you successfully identified your event, and i assume you have your sound file ready.
 
