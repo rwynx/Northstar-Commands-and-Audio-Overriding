@@ -14,11 +14,12 @@ And so do you, to start to change them, you must identify the exact sound first.
 First you need to identify the exact sound. There's a command for this: **"ns_print_played_sounds 1"**
 It will show all the "audio events" that are happening at that moment on the console. 
 
-For example, when you use your Grapple: **"pilot_grapple_fire"** 
-But there are some other tweaks too. For example: If you use grapple on a surface, the impact sound will be something else. (Just in case if you ever want to change them too.)
-Examples: Concrete impact: **"concrete_grapple_impact_1p_vs_3p"**
-Solidmetal impact: **"solidmetal_grapple_extract_1p_vs_3p"**
-Dirt impact: **"dirt_grapple_impact_1p_vs_3p"**
+For example, when you use your Grapple, the ID will be **"pilot_grapple_fire"** this one is an easy one, but there are some other tweaks too.
+
+### Some other examples: If you use grapple on a surface, the impact sound will be something else. (Just in case if you ever want to change them too.)
+* Concrete impact: **"concrete_grapple_impact_1p_vs_3p"**
+* Solidmetal impact: **"solidmetal_grapple_extract_1p_vs_3p"**
+* Dirt impact: **"dirt_grapple_impact_1p_vs_3p"**
 
 Like I said, all weapons and boosts have different events IDs on different surfaces.
 That's why you must identify the exact event/s.
@@ -39,7 +40,7 @@ If you don't know how to make a mod.json, you can just download one of the sound
 }
 ```
 
-* • **An example screenshot:**
+* **An example screenshot:**
 >![modjson](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/mod.json.png)
 
 ***Note: Version number is not important if you don't want to release the mod publicly.***
@@ -51,7 +52,7 @@ If you don't know how to make a mod.json, you can just download one of the sound
 **Audio folder must contain your audio files as WAV format and folder name must be the Event ID.**
 
 ### **For example based on Rwyn's Kraber reload sound mod.**
- Here is weapon_kraber_reload_magin is Kraber's reload sound ID, you will use whatever the sound you want to replace:
+ Here is these 2 are Kraber's reload sound ID, you will use whatever the sound you want to replace:
  There are 2 different files in this case because the reload process consists of two parts. The mag comes "out" first and then goes back "in."
  
 * **weapon_kraber_reload_magin** (folder, your wav file must be in it)
