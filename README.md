@@ -87,10 +87,10 @@ Example of an (eventIDhere).json:**
 ## **After the whole process you should have these 2 files with the all additions I just explained.**
 ![ModFolderOverall](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/ModFolderOverall.png)
 
-# Creating Your Sound
+# • Creating Your Sound
 * Recommended tool: Audacity
 
 Open/Add your audio as a track to Audacity and set your sample rate to either 48000hz or 44100hz. In Audacity, select your entire track, open the effects dropdown menu, then click Change Speed. In the dialog set either Speed Multiplier to 0.918 or Percent Change to -8,200. After that, export your track as .wav and make sure you don’t add any metadata.
 
-## Installation 
+## • Installation 
 * Once you are done with the mod, copy or drag the folder (which contains audio folder and mod.json) to "Titanfall 2/r2Northstar/Mods" and that's all.
