@@ -11,9 +11,7 @@ And so do you, to start to change them, you must identify the exact sound first.
 * Use only WAV format and either "48000hz" or "44100hz" sample rate. 
 * Check the last section of this article for more info and recommended tools.
 
-***This article only contains info for simple ones. There may be another one for TitanOS, Announcher kind of stuff. Process is almost the same but more complicated.***
-
-## • How to make sound mods? Useful for simple ones. 
+## • STEP 1
 
 First you need to identify the exact sound. There's a command for this: **"ns_print_played_sounds 1"**
 It will show all the "audio events" that are happening at that moment on the console. 
@@ -22,21 +20,19 @@ For example, use your Grapple and open the console the ID will be **"pilot_grapp
 ### A console example:
 > ![audioeventexample](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/audioeventeample.png)
 
-### Some other examples: If you use grapple on a surface, the impact sound will be something else. (Just in case if you ever want to change them too.)
+### All weapons, boosts, tacticals have different events IDs on different surfaces. That's why you must identify the exact event/s. Impact examples based on Grapple:
 * Concrete impact: **"concrete_grapple_impact_1p_vs_3p"**
 * Solidmetal impact: **"solidmetal_grapple_extract_1p_vs_3p"**
 * Dirt impact: **"dirt_grapple_impact_1p_vs_3p"**
 * Wood impact: **"wood_grapple_impact_1p_vs_3p"**
 
-Like I said, all weapons and boosts have different events IDs on different surfaces.
-That's why you must identify the exact event/s.
-
 **NOTE:** "ns_print_played_sounds 1" will show you every event ID. Not just in-match ones.
-* For example the sound when you move the cursor to an option it will be "menu_focus", and clicking sound will be "menu_accept" or main menu music "mainmenu_music"
-* These are just couple of them, you can find any EventID and change them with the method I will explain here.
+* For example the sound when you move the cursor to an option it will be **"menu_focus"**, and clicking sound will be **"menu_accept"** or main menu music **"mainmenu_music"**
+* After every sound, you can check the console to **identify** it.
+* These are just couple of them, you can find any **EventID** and change them with the method I will explain here.
 
-## • It's time to make the mod itself.
-When you successfully identified your event, and i assume you have your sound file ready.
+## • STEP 2
+When you successfully identified your event and have the audio file/s ready. It's time to making it.
 
 First of all, mod folder must contain "audio" folder and "mod.json"
 If you don't know how to make a mod.json, you can just download one of the sound mods and edit, or just copy this template and edit it.
@@ -52,36 +48,32 @@ If you don't know how to make a mod.json, you can just download one of the sound
 ```
 
 * **An example screenshot:**
->![modjson](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/mod.json.png)
+>![modjson](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/eventjsonexample.png)
 
 ***Note: Version number is not important if you don't want to release the mod publicly.***
 
 ## • Audio Folder
 * **Audio Folder example:**
->![audiofolder](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/folderexample.png)
+>![audiofolder](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/audiofolder2.png)
 
-**Audio folder must contain your audio files as WAV format either "48000hz" or "44100hz" sample rate and folder name must be the Event ID.**
+***Audio folder must contain your audio files as WAV format either "48000hz" or "44100hz" sample rate and folder name must be the Event ID.***
 
-### **For example based on Rwyn's Kraber reload sound mod.**
- Here is these 2 are Kraber's reload sound ID, you will use whatever the sound you want to replace:
- There are 2 different files in this case because the reload process consists of two parts. The mag comes "out" first and then goes back "in."
+### **For example let's say we are making a Grapple sound mod;**
  
-* **weapon_kraber_reload_magin** (folder, your wav file must be in it)
-* **weapon_kraber_reload_magin.json** (don't forget to edit)
-* **weapon_kraber_reload_magout** (folder, your wav file must be in it)
-* **weapon_kraber_reload_magout.json** (don't forget to edit)
+* **pilot_grapple_fire** (folder, your .wav file must be in it)
+* **pilot_grapple_fire.json** (don't forget to edit)
 
-**And also these .json files should be edited too. It must contain "EventID" and "AudioSelectionStrategy"
-Example of an (eventIDhere).json:**
+**JSON files must contain "EventID" and "AudioSelectionStrategy"**
+* Example .json based on this imaginary mod:
 ```
 {
-	"EventId": [ "weapon_kraber_reload_magin" ],
+	"EventId": [ "pilot_grapple_fire" ],
 	"AudioSelectionStrategy": "sequential"
 }
 ```
 
-**An example screenshot of an EventID Json file:**
->![EventIDJson](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/eventmodjsonexample.png)
+**Screenshot version;**
+>![EventIDJson](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/grappleeventexample.png)
 
 
 ## **After the whole process you should have these 2 files with the all additions I just explained.**
@@ -93,4 +85,4 @@ Example of an (eventIDhere).json:**
 Open/Add your audio as a track to Audacity and set your sample rate to either 48000hz or 44100hz. In Audacity, select your entire track, open the effects dropdown menu, then click Change Speed. In the dialog set either Speed Multiplier to 0.918 or Percent Change to -8,200. After that, export your track as .wav and make sure you don’t add any metadata.
 
 ## • Installation 
-* Once you are done with the mod, copy or drag the folder (which contains audio folder and mod.json) to "Titanfall 2/r2Northstar/Mods" and that's all.
+* Basic methods apply. Once you are done with the mod, copy or drag the folder (which contains audio folder and mod.json) to "Titanfall 2/r2Northstar/Mods" and that's all.
