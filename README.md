@@ -9,14 +9,14 @@ And so do you, to start to change them, you must identify the exact sound first.
 
 ### Audio Type
 * Use only WAV format and either "48000hz" or "44100hz" sample rate. 
-* Check the last section of this article for more info and recommended tools.
+* Check the [last section](https://github.com/rwynx/audio-overriding-northstar#creating-your-sound) of this article for more info and recommended tools.
 
 ## STEP 1 - Identifying the Audio
 
 First you need to identify the exact sound. There's a command for this: **"ns_print_played_sounds 1"**
 It will show all the "audio events" that are happening at that moment on the console. 
 
-For example, use your Grapple and open the console the ID will be **"pilot_grapple_fire"** this one is an easy one, but there are some other tweaks too.
+For example, use your Grapple and open the console the ID will be **"pilot_grapple_fire"**
 ### A console example:
 > ![audioeventexample](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/audioeventeample.png)
 
