@@ -60,8 +60,8 @@ If you don't know how to make a mod.json, you can just download one of the sound
 
 ### **For example let's say we are making a Grapple sound mod;**
  
-* **pilot_grapple_fire** (folder, your .wav file must be in it)
-* **pilot_grapple_fire.json** (don't forget to edit)
+* **event_id_here** (folder, your .wav file must be in it)
+* **event_id_here.json** (don't forget to edit)
 
 **JSON files must contain "EventID" and "AudioSelectionStrategy"**
 * Example .json based on this imaginary mod:
@@ -84,4 +84,5 @@ You can either use online web tools or Audacity (or any other sound editor softw
 Set your sample rate to either 48k hz or 44.1k hz. Export your track as WAV format and make sure there is no metadata in the file. 
 
 ## • Installation 
-* Basic methods apply. Once you are done with the mod, copy or drag the folder (which contains audio folder and mod.json) to "Titanfall 2/r2Northstar/Mods" and that's all.
+* Basic methods apply.
+* Once you are done with the mod, copy or drag the folder (which contains audio folder and mod.json) to "Titanfall 2/r2Northstar/Mods" and that's all.
