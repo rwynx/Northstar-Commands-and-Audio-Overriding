@@ -11,7 +11,7 @@ And so do you, to start to change them, you must identify the exact sound first.
 * Use only WAV format and either "48000hz" or "44100hz" sample rate. 
 * Check the last section of this article for more info and recommended tools.
 
-## • STEP 1
+## STEP 1 - Identifying the Audio
 
 First you need to identify the exact sound. There's a command for this: **"ns_print_played_sounds 1"**
 It will show all the "audio events" that are happening at that moment on the console. 
@@ -31,7 +31,7 @@ For example, use your Grapple and open the console the ID will be **"pilot_grapp
 * After every sound, you can check the console to **identify** it.
 * These are just couple of them, you can find any **EventID** and change them with the method I will explain here.
 
-## • STEP 2
+## STEP 2 - Creating Folders
 When you successfully identified your event and have the audio file/s ready. It's time to making it.
 
 First of all, mod folder must contain "audio" folder and "mod.json"
