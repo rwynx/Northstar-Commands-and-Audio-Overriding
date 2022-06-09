@@ -1,4 +1,4 @@
-## **Sound Mods & Audio Overriding**
+# **Sound Mods & Audio Overriding**
 ### Some of the terms and their meanings in this article;
 * "AudioSelectionStrategy" ("sequential" or "random"): Selection strategy for multiple override samples.
 If you have more than one sounds, you can choose "random" to randomize them, if you have only one sound, you can simply use "sequential"
@@ -76,10 +76,10 @@ If you don't know how to make a mod.json, you can just download one of the sound
 >![EventIDJson](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/grappleeventexample.png)
 
 
-## **After the whole process you should have these 2 files with the all additions I just explained.**
+### **After the whole process you should have these 2 files with the all additions I just explained.**
 ![ModFolderOverall](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/ModFolderOverall.png)
 
-# Creating Your Sound
+## Creating Your Sound
 You can either use online web tools or Audacity (or any other sound editor software)
 Set your sample rate to either 48k hz or 44.1k hz. Export your track as WAV format and make sure there is no metadata in the file. 
 
