@@ -20,7 +20,8 @@ For example, use your Grapple and open the console the ID will be **"pilot_grapp
 ### A console example:
 > ![audioeventexample](https://raw.githubusercontent.com/rwynx/audio-overriding-northstar/main/Images/audioeventeample.png)
 
-### All weapons, boosts, tacticals have different events IDs on different surfaces. That's why you must identify the exact event/s. Impact examples based on Grapple:
+All weapons, boosts, tacticals have different events IDs on different surfaces. That's why you must identify the exact event/s.
+Impact examples based on Grapple:
 * Concrete impact: **"concrete_grapple_impact_1p_vs_3p"**
 * Solidmetal impact: **"solidmetal_grapple_extract_1p_vs_3p"**
 * Dirt impact: **"dirt_grapple_impact_1p_vs_3p"**
