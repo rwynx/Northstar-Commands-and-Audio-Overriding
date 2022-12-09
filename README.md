@@ -1,9 +1,9 @@
 # **Sound Mods & Audio Overriding**
-### Some of the terms and their meanings in this article;
+### Some of the terms and their meanings;
 * "AudioSelectionStrategy" ("sequential" or "random"): Selection strategy for multiple override samples.
 If you have more than one sounds, you can choose "random" to randomize them, if you have only one sound, you can simply use "sequential"
 * Mod.json: is a required file that informs the game engine how to set up and use a mod. You can find example template in this article.
-* Audio Event IDs: Every event has different IDs.
+* Audio Event IDs: Every event have different IDs.
 In order for the game to choose the sound it should play at that moment, it must first know its ID.
 And so do you, to start to change them, you must identify the exact sound first.
 
