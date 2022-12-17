@@ -6,6 +6,8 @@
 **Command:** `script SetPersistentLoadoutValue( GetPlayerArray()[0], "titan", TITAN INDEX HERE (starts from 0), "name",                "Name Here" )`
 *BE aware, if you have framework it will break this, since framework uses loadout name to store modded titan.*
 
+## ✔️ Spawn a titan (useful for modders): 
+**Command:** `script DevSpawnTitan()`
 
 
 ## ✔️ Change your levels & gen:
