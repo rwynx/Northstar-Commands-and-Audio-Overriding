@@ -1,6 +1,6 @@
 # This repository contains information about;
-* **Northstar Sound Modding**
-* **Custom Client Commands to customize stuff.**
+* **Northstar Sound Modding & Audio Overriding**
+* **Custom Client Commands to customize stuff like pilot, weapon, titan levels or titan names etc.**
 
 
 **You can browse the folders on the repository homepage for what you are looking for, or alternatively;**
