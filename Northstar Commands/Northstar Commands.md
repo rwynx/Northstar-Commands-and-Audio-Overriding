@@ -8,7 +8,9 @@
 
 ## ✔️ Spawn a titan (useful for modders): 
 **Command:** `script DevSpawnTitan()`
-
+## ✔️ How to reset all your levels?
+**Command:** `ns_resetpersistence` if this command doesn't work, try;
+`script_ui seterrorhandler(void function() {})`
 
 ## ✔️ Change your levels & gen:
 
