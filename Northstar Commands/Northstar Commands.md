@@ -9,6 +9,12 @@
 
 ## ✔️ Spawn a titan (useful for modders): 
 **Command:** `script DevSpawnTitan()`
+
+## ✔️ Test sound effects (useful for modders):
+**Command:** `script_ui EmitUISound(sound_name)`
+
+*You can find audios' event id's here; **[Northstar Sound Modding | Documentation](https://r2northstar.readthedocs.io/en/latest/guides/soundmodding.html)***
+
 ## ✔️ How to reset all your levels?
 **Command:** `ns_resetpersistence` if this command doesn't work, try;
 `script_ui seterrorhandler(void function() {})`
