@@ -15,6 +15,16 @@
 
 *You can find audios' event id's here; **[Northstar Sound Modding | Documentation](https://r2northstar.readthedocs.io/en/latest/guides/soundmodding.html)***
 
+## ✔️ Spawn AI
+* **sv_cheats 1**
+* **ent_create npc_soldier** -grunt
+* **ent_create npc_pilot_elite** -grunt with pilot skin
+* **ent_create npc_stalker** -stalker
+* **ent_create npc_frag_drone** -tick
+* **ent_create npc_titan** -titan (call your titan before to prevent crash)
+* ent_fire !picker addoutput **"ModelScale NUMBER"** to set the size so for example: **ent_create npc_stalker ;ent_fire !picker addoutput "ModelScale 4"**
+You can also bind it to a key: **bind KEY "ent_create x"**
+
 ## ✔️ How to reset all your levels?
 **Command:** `ns_resetpersistence` if this command doesn't work, try;
 `script_ui seterrorhandler(void function() {})`
